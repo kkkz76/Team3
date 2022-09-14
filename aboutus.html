@@ -4,9 +4,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Traditional+Nushu&display=swap" rel="stylesheet">
     
 
     <title>About</title>
@@ -27,7 +32,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 50px 300px;
-            background-color: aliceblue;
+         
         } 
 
         .about_img {
@@ -35,7 +40,7 @@
         }
 
         .img {
-            min-width: 420px;
+            min-width: 410px;
             height: 600px;
             
         }
@@ -43,7 +48,7 @@
         .about_img-icon {
             width: 100%;
             height: 100%;
-            border-radius: 40px;
+            border-radius: 50px;
         }
 
         .box-1 {
@@ -55,6 +60,8 @@
             background-color: #FFFF;
             border-radius: 25px;
             line-height: 3px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+            text-align: center;
         }
 
         .box-2 {
@@ -65,6 +72,8 @@
             background-color: #FFFF;
             border-radius: 25px;
             line-height: 3px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+            text-align: center;
         }
 
         .box-3 {
@@ -75,6 +84,8 @@
             background-color: #FFFF;
             border-radius: 25px;
             line-height: 3px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+            text-align: center;
         }
 
         .title{
@@ -83,26 +94,48 @@
 
         .name {
             font-size: 10px;
+            margin-top: -10px;
         }
 
-        .header {
+        .about_header {
             padding-left: 90px;
         }
 
         .about_heading {
             font-size: 30px;
+            margin-bottom: 0;
         }
 
         .about_paragraph {
             padding: 30px 0;
             line-height: 30px;
+            font-family: 'Noto Traditional Nushu', sans-serif;
+            margin:0;
         }
 
         .btn {
             background-color: #403B35;
-            padding: 10px 20px;
+            padding: 15px 30px;
             color: #FFFF;
-            border-radius: 40px;
+            border-radius: 30px;
+            border:none;
+        }
+        @media(max-width:625px){
+            .about_container{
+                flex-direction:column;
+                padding:0;
+            }
+            .img{
+                min-width: 10;
+            }
+            .about_heading{
+                padding:0;
+                margin:0;
+            }
+            .about_paragraph{
+                padding:0px;
+            }
+            
         }
         
     </style>
@@ -112,11 +145,11 @@
     <section class="about_container">
                 <div class="about_img">
                     <div class="img">
-                        <img src="img/landing.png" class="about_img-icon img-fluid" alt="">
+                        <img src="img/landing.png" class="about_img-icon" alt="">
                     </div>
                     <div class="box-1">
-                        <h5 class="title">5100+</h5>
-                        <p class="name">TOURIST</p>
+                        <h5 class="title">150+</h5>
+                        <p class="name">HOTEL</p>
                     </div>
                     <div class="box-2">
                         <h5 class="title">5100+</h5>
@@ -124,18 +157,17 @@
                     </div>
                     
                     <div class="box-3">
-                        <h5 class="title">5100+</h5>
-                        <p class="name">TOURIST</p>
+                        <h5 class="title">300+</h5>
+                        <p class="name">DESTINATION</p>
                     </div>
                 </div>
 
-            <div class="header">
+            <div class="about_header">
                 <h1 class="about_heading">Travel Any Corner of The World with Us</h1>
                 <p class="about_paragraph">Would you explore nature paradise in the world, let’s find the best destination in world with us, Would you explore nature paradise in the world, let’s find the best destination in world with us. Would you explore nature paradise in the world, let’s find the best destination in world with us. 
                 Would you explore nature paradise in the world, let’s find the best destination in world with us.</p>
                 <button  class="btn">Contact Us</button>
             </div>
-
     </section>
 </body>
 </html>
