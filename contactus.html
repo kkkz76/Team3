@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Traditional+Nushu&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+<!-- MDB -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
+<style>
+    .contact-btn{
+        background: linear-gradient(90.93deg, rgba(163, 127, 127, 0.75) 14.81%, rgba(168, 128, 97, 0.78) 97.69%);
+    }
+    .cardd{
+    
+    background: linear-gradient(100.34deg, #FFD4B9 0%, rgba(255, 255, 255, 0.1) 97.27%);
+    }
+    .card-1{
+        background: linear-gradient(147.26deg, rgba(252, 239, 226, 0.37) 1.37%, rgba(244, 183, 127, 0.37) 98.26%);
+    }
+    .contact-h5{
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .contact-h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+        color: #413535; 
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .contact-p
+    {
+        font-family: 'Noto Traditional Nushu', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        color: #413535;
+    }
+    .card-info-p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color:black;
+    }
+    .card-info-small{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+    }
+    .form-control{
+        border: none;
+    }
+    .cardd {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding:10px;
+        border-radius: 1em;
+    }
+
+    .cardd-l img{
+        width: 50px;
+        height: 50px;
+        margin-left: -30px;
+    }
+
+    .cardd-r{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+</style>
+</head>
+<body>
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 contact-l ">
+                <h5 class="contact-h5">Get In Touch</h5>
+                <h2 class="contact-h2">FEEL FREE TO CONTACT WITH US</h2>
+                <p class="contact-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis voluptatibus nam atque illum quasi corporis quas expedita veniam alias, dolorem.</p>
+                <div class="row mb-4 mt-4">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <div class="cardd shadow-none">     
+                             <div class="cardd-l">
+                                <img src="img/iconaddress.png" alt="">
+                             </div>           
+                            <div class="cardd-r">
+                                <p class="text-center card-info-p">Phone</p>
+                                <small class="text-center card-info-small">+959448005952</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cardd shadow-none">
+                            <div class="cardd-l">
+                            <img src="img/iconaddress.png"  alt="">
+                            </div>
+                            <div class="cardd-r">
+                                <p class="text-center card-info-p">Email</p>
+                                <small class="text-center  card-info-small">+959448005952</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-xs-3 mb-4 mb-md-0">
+                        <div class="cardd shadow-none">
+                            <div class="cardd-l">
+                                <img src="img/iconaddress.png"  alt="">
+                            </div>
+                            <div class="cardd-r">
+                                <p class="text-center card-info-p">Address</p>
+                                <small class="text-center  card-info-small">+959448005952</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-xs-3">
+                        <div class="cardd shadow-none">
+                            <div class="cardd-l">
+                                <img src="img/iconaddress.png" alt="">
+                            </div>
+                            <div class="cardd-r">
+                                <p class="text-center card-info-p">Facebook</p>
+                                <small class="text-center  card-info-small">+959448005952</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-6">
+                 <div class="card-1 shadow contact-card p-3">
+                    
+                    <form>
+                        <div class="row my-4">
+                            <div class="col">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="col">
+                            <input type="text" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col">
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="col">
+                            <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                        </div>
+                    
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Write Message"></textarea>
+
+                        <button type="button" class="btn contact-btn text-white btn-lg btn-block mt-3">Submit</button>
+                    </form>
+                    
+                 </div>
+            </div>  
+        </div>
+     </div>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+</body>
+
+</html>
